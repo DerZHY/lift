@@ -376,8 +376,18 @@
     <div id="popup-layer" aria-live="polite" aria-atomic="false"></div>
   </div>
 
-  <audio id="bgMusic" preload="auto" loop>
+  /**<audio id="bgMusic" preload="auto" loop>
     <source src="https://sf5-hl-cdn-tos.douyinstatic.com/obj/ies-music/7538982702662699786.mp3" type="audio/mpeg">
+  </audio>**/
+  <audio id="bgMusic" preload="auto" loop>
+    <!-- 小酒窝 - 林俊杰&阿Sa -->
+    <!-- 如果链接失效，可以替换为以下任一方式： -->
+    <!-- 1. 使用本地文件：将音频文件放在同目录下，改为 src="小酒窝.mp3" -->
+    <!-- 2. 使用其他在线音频链接 -->
+    <!-- 3. 使用多个备选源（取消下面的注释） -->
+    <source src="https://music.163.com/song/media/outer/url?id=254574.mp3" type="audio/mpeg">
+    <!-- 备选链接（如果上面的失效，可以取消注释使用） -->
+    <!-- <source src="https://cdn.jsdelivr.net/gh/your-repo/audio/小酒窝.mp3" type="audio/mpeg"> -->
   </audio>
 
   <script>
@@ -531,3 +541,4 @@
   </script>
 </body>
 </html>
+
